@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 188, 188);
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.large {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-left: 9%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+input {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(20, 74, 252, 0.8);
+    border-radius: 5px;
+    
+}
+
+.medium {
+    max-width: 78%;
+    margin: 0 uto;
+   padding: 4%;
+}
+#delete{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#enter{
+    cursor: pointer; 
+    
+}
