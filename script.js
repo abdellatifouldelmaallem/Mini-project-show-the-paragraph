@@ -50,3 +50,17 @@ else
 
 
 
+  /******************************** Delete ******************************/
+
+  var deleteBtn = document.getElementById("delete");
+ 
+  
+  deleteBtn.addEventListener('click',(e)=>{
+       e.preventDefault();
+    paragraph.innerHTML="";
+
+  })
+
+
+
+
