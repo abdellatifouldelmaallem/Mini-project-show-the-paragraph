@@ -21,6 +21,14 @@ const area = document.querySelector(".area");
 
 botu.addEventListener('click',showParagraph );
 
+// event by bottun keypress (13)
+input.addEventListener('keypress',(e)=>{
+  e.preventDefault();
+  if(e.keyCode == 13){
+    showParagraph();
+  }
+})
+
 // function show the paragraph 
 function showParagraph(){
   var valeur = parseInt(input.value);
@@ -39,4 +47,6 @@ else
   paragraph.innerHTML=showText.join("</br>");
 }
 }
+
+
 
