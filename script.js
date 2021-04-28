@@ -12,5 +12,31 @@ const text = [
   ];
 
 
+  var botu = document.getElementById("enter")
+var input = document.getElementById("userinput")
+var paragraph = document.querySelector(".medium")
+const area = document.querySelector(".area");
+
+
+
+botu.addEventListener('click',showParagraph );
+
+// function show the paragraph 
+function showParagraph(){
+  var valeur = parseInt(input.value);
+  input.value="";
   
+
+if(isNaN(valeur) || valeur<=0 || valeur>9)
+{
+  var paragraph = document.querySelector(".medium")
+  paragraph.innerHTML=text[0];
+}
+else
+{
+  var showText = text.slice(0,valeur);
+  var paragraph = document.querySelector(".medium")
+  paragraph.innerHTML=showText.join("</br>");
+}
+}
 
